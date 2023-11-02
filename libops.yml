@@ -1,14 +1,12 @@
-# see https://docs.libops.io/development/yml/
-blazegraph: 2.1.5
-blocked-ips: []
-developers: {}
-domain-mappings:
-  development: []
-  production: []
-fcrepo: 6.4.0
-https-firewall: []
-mariadb: 10.3.39
-php: 8.2
-solr: 8
-ssh-firewall: []
 version: 0.1
+php: 8.2
+https-firewall: []
+ssh-firewall: []
+blocked-ips: []
+developers:
+    joe@libops.io: []
+mariadb: 10.3.39
+solr: 8
+domain-mappings:
+    development: []
+    production: []
