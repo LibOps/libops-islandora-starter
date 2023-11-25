@@ -1,0 +1,26 @@
+uuid: ee25c32e-a7f2-4e89-a7d8-37b6e5007b9c
+langcode: en
+status: true
+dependencies: {  }
+label: null
+id: f3ac457c32
+name: tag
+invalidationtype: tag
+hostname: libops-cdn-purge
+port: 8080
+path: /
+request_method: BAN
+scheme: http
+verify: true
+headers:
+  -
+    field: X-Purge-Tags
+    value: 'true'
+body: '[invalidations:separated_pipe]'
+body_content_type: text/plain
+runtime_measurement: true
+timeout: 1.0
+connect_timeout: 1.0
+cooldown_time: 0.0
+max_requests: 100
+http_errors: true
